@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
+#if UNITY_EDITOR
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 using Mono.Cecil.Mdb;
+#endif
 using Mono.Collections.Generic;
 using UnityEditor;
 using UnityEditorInternal;
